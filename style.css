@@ -169,4 +169,76 @@ section.hero .main-heading{
   padding: 5px;
 }
 
+.about-us{
+  max-width: 1310px;
+  height: 40vh;
+  margin: 100px auto 100px auto;
+  padding: 50px;
+}
+
+.text-column{
+  float: left;
+  width: 40%;
+  margin-right: 5%;
+}
+
+.fix-text-column{
+  position: fixed;
+  top: 50%;
+  width: 30%;
+}
+
+.text-column .about-us-text h2{
+font-size: 3rem;
+font-weight: 600;
+}
+.text-column .about-us-text p{
+  font-size: 1.2rem;
+}
+
+.image-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.image-column .column-wrapper{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.image-column .column-wrapper:not(:first-child){
+  margin-top: 40px;
+}
+
+
+.image-column .left, .right{
+  padding: 20px;
+  box-shadow: 0 2px 32px 0 rgb(120 120 120 / 16%);
+  border-radius: 15px;
+  width: 200px;
+}
+.image-column .left{
+  margin-right: 40px;
+}
+
+
+
+
+.image-column img{
+  width: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+.image-column h4{
+  margin: 20px 0px 10px 0px;
+  padding:0;
+  font-size: 19.2px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
 
