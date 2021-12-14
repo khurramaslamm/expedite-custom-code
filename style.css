@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Body */
+body{
+  margin: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #333
+}
+
+/* Header */
+.header{
+  max-width:1400px;
+  margin: 0 auto;
+}
+.header-wrapper{
+  padding: 20px 50px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-wrapper .logo img{
+    width:200px;
+}
+.header .header-wrapper .logo{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.header .header-wrapper .navbar .navbar-wrapper{
+  font-weight: 600;
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.header .header-wrapper .navbar .navbar-wrapper .inner{
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+
+.header .header-wrapper .navbar .inner a{
+  display: block;
+  padding: 8px 25px;
+  color: black;
+  text-decoration: none;
+}
+
+.header .header-wrapper .navbar .inner a:hover, ul.sub-nav li a:hover{
+  color:#FF5733;
+}
+
+.fa-sort-down{
+position: relative;
+bottom: 2px;
+left: 3px;
+}
+
+ul.sub-nav{
+  display: block;
+  transition: .2s ease;
+  min-width: 100%; /* Set width of the dropdown */
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+  left: 13px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 4px 2px rgb(46 50 58 / 16%);
+  padding: 0 0 15px 0;
+}
+
+ul.sub-nav li{
+  padding-top: 13px;
+  display: block;
+}
+#services:hover ul.sub-nav{
+ opacity: 1;
+}
+
+/* Hero */
+section.hero{
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.hero .main-heading{
+  position: relative;
+  font-size: 3.4rem;
+  top: 152px;
+  line-height: 58px;
+  z-index: 1;
+  width: 55%;
+  margin: 0 auto;
+}
+
+
+.overlay-heading{
+  opacity: 0.1;
+  font-size: 14rem;
+  color: #FF5733;
+  position: relative;
+  top: -90px;
+  margin: 0 auto;
+}
+
+.gradient-i {
+	padding:0px;
+	position:relative;
+	display:inline-block;
+  color: #333;
+ 	z-index:1;
+}
+.gradient-i:before{
+  content: attr(attribute);
+  color: #FF5733;
+	position:absolute;
+	top:0;
+	left:0;
+	height:25%;
+	overflow:hidden;
+	z-index:3;
+  
+}
+
+
+
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  width: 1328px;
+  margin: 0px 50px;
+  position: relative;
+  top: 50px;
+}
+.down-arrow, .xord-logo{
+  display: flex;
+  align-items: flex-end;
+}
+
+.xord-logo img{
+  width: 200px;
+  margin-bottom: -20px;
+}
+.down-arrow .fa-angle-double-down{
+  font-size: 30px;
+  position: relative;
+  left: -80px;
+  color: #FF5733
+}
+
+
+.social-icons{
+  flex-direction: column;
+    display: flex;
+    background: #FF5733;
+}
+.social-icons .social-logos{
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+
+
