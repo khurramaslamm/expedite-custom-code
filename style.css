@@ -171,7 +171,7 @@ section.hero .main-heading{
 
 .about-us{
   max-width: 1310px;
-  height: 40vh;
+  height: 200vh;
   margin: 100px auto 100px auto;
   padding: 50px;
 }
@@ -180,12 +180,19 @@ section.hero .main-heading{
   float: left;
   width: 40%;
   margin-right: 5%;
+  
 }
 
 .fix-text-column{
   position: fixed;
-  top: 50%;
-  width: 30%;
+  top: 35%;
+  width: 27%;
+}
+
+.fix-text-column-end{
+  position: absolute;
+  top:143%;
+  width: 27%;
 }
 
 .text-column .about-us-text h2{
